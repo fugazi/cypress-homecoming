@@ -1,17 +1,24 @@
 {
-  "name": "tutorial-cypress",
+  "name": "homecoming-cypress",
   "version": "1.0.0",
-  "description": "This contains Applitools Cypress tutorial",
+  "description": "Applitools Visual AI Challenge by Douglas Urrea",
   "main": "index.js",
   "scripts": {
     "test": "cypress run --browser chrome --spec 'cypress/integration/examples/ultraFastGrid.spec.js'",
     "test:ci": "cypress run --browser chrome --headless --spec 'cypress/integration/examples/ultraFastGrid.spec.js'",
     "cypress:open": "cypress open"
   },
-  "author": "Applitools Team <team@applitools.com> (http://www.applitools.com/)",
-  "license": "ISC",
+  "author": "Douglas Urrea - itmteleco@gmail.com (http://www.douglasfugazi.co)",
+  "license": "MIT",
+  "keywords": [
+    "cypress",
+    "visual",
+    "visual-ai",
+    "applitools",
+    "hackathon"
+  ],
   "dependencies": {
-    "@applitools/eyes-cypress": "^3.23.3",
-    "cypress": "^9.1.0"
+    "cypress": "^9.1.0",
+    "@applitools/eyes-cypress": "^3.23.3"
   }
 }

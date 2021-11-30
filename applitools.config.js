@@ -1,6 +1,6 @@
 module.exports = {
     testConcurrency: 5,
-    apiKey: 'APPLITOOLS_API_KEY',
+    apiKey: 'sJbZe18o1F3ZBT5YU91000AQvmefOdMktyoliDh11O1076M110',
     //
     browser: [
         // Add browsers with different viewports
@@ -14,6 +14,6 @@ module.exports = {
         {deviceName: 'Pixel 2', screenOrientation: 'portrait'}
     ],
     // set batch name to the configuration
-    batchName: 'Demo Batch - Cypress',
+    batchName: 'Demo Homecoming Batch - Cypress',
     showLogs: true
 }
