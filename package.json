@@ -4,8 +4,8 @@
   "description": "Applitools Visual AI Challenge by Douglas Urrea",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --browser chrome --spec 'cypress/integration/examples/ultraFastGrid.spec.js'",
-    "test:ci": "cypress run --browser chrome --headless --spec 'cypress/integration/examples/ultraFastGrid.spec.js'",
+    "test": "cypress run --browser chrome --spec 'cypress/integration/examples/*.spec.js'",
+    "test:ci": "cypress run --browser chrome --headless --spec 'cypress/integration/examples/*.spec.js'",
     "cypress:open": "cypress open"
   },
   "author": "Douglas Urrea - itmteleco@gmail.com (http://www.douglasfugazi.co)",
