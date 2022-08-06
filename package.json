@@ -17,10 +17,8 @@
     "applitools",
     "hackathon"
   ],
-  "dependencies": {
-    "@applitools/eyes-cypress": "^3.23.3"
-  },
   "devDependencies": {
+    "@applitools/eyes-cypress": "^3.27.1",
     "cypress": "^10.4.0"
   }
 }
