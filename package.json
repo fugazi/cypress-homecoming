@@ -19,6 +19,6 @@
   ],
   "devDependencies": {
     "@applitools/eyes-cypress": "^3.52.0",
-    "cypress": "^14.3.3"
+    "cypress": "^14.4.1"
   }
 }
