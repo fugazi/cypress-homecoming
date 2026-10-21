@@ -4,8 +4,8 @@
   "description": "Applitools Visual AI Challenge by Douglas Urrea",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --browser chrome --spec 'cypress/integration/examples/ultraFastGridV1.spec.js'",
-    "test:ci": "cypress run --browser chrome --headless --spec 'cypress/integration/examples/ultraFastGridV1.spec.js'",
+    "test": "cypress run --browser chrome",
+    "test:ci": "cypress run --browser chrome --headless",
     "cypress:open": "cypress open"
   },
   "author": "Douglas Urrea - itmteleco@gmail.com (http://www.douglasfugazi.co)",
@@ -18,7 +18,7 @@
     "hackathon"
   ],
   "devDependencies": {
-    "@applitools/eyes-cypress": "^3.53.0",
-    "cypress": "^14.5.1"
+    "@applitools/eyes-cypress": "^3.61.14",
+    "cypress": "^16.2.0"
   }
 }
