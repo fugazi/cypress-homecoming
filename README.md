@@ -35,8 +35,8 @@ This is a Visual AI Testing Challenge for Applitools company, developed by Dougl
 Please see [Getting Started with Applitools Cypress Tutorial](https://applitools.com/tutorials/cypress.html#running-tests-with-applitools) for all the details.
 
 ### 🚴 Project configuration
-* Cypress project Baseline: `ultraFastGridV1.spec.js` into folder `cypress\integration`
-* Cypress project Checkpoint: `ultraFastGridV2.spec.js` into folder `cypress\integration`
+* Cypress project Baseline: `cypress/e2e/ultraFastGridV3.cy.js`
+* Cypress project Checkpoint: `cypress/e2e/ultraFastGridV4.cy.js`
 * batchName: `Demo Homecoming Batch - Cypress`
 * appName: `ultraFastTest App Baseline - Cypress`
 * testName: `Smoke Test Baseline`
